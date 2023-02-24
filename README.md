@@ -4,7 +4,7 @@ Next.js v13 × microCMS で作成できるブログテンプレートです。
 
 fork 後、[こちら](#TODO)の手順に従うことで簡単に自分だけのブログを運用することが出来ます。
 
-最低限の機能のみ実装しています。今後も継続的に更新予定ですが何か問題・不明点がありましたらお気軽に[twitter](https://twitter.com/Squl_d)もしくは[issue]("")までお願いします。
+最低限の機能のみ実装しています。今後も継続的に更新予定ですが何か問題・不明点がありましたらお気軽に[twitter](https://twitter.com/Squl_d)もしくは[issue](https://github.com/n4rvs3/Nextjs13-appDir-microCMS-template/issues)までお願いします。
 
 ## fork したら
 
@@ -45,7 +45,7 @@ fork 後、[こちら](#TODO)の手順に従うことで簡単に自分だけの
     - `MICROCMS_API_KEY`に microCMS の api キー
     - `MICROCMS_URL`に`https://****.microcms.io/api/v1/post`(\*\*\*\*の部分は自身の URL)
 
-3. サイト情報を入力
+### サイト情報を入力
 
 - [header.tsx](./src/app/header.tsx)の`site_name`を自身のサイト名に変更
 
