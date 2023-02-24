@@ -1,0 +1,113 @@
+.title {
+  font-size: 2rem;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.contents {
+  h1,
+  h2,
+  h3 {
+    background-color: rgb(48, 65, 91);
+    //     color: black;
+    padding: 15px 10px;
+    margin: 30px 0;
+    line-height: 2rem;
+
+    @media screen and (max-width: 768px) {
+      padding: 10px 10px;
+      margin: 20px 0;
+    }
+  }
+
+  h1 {
+    font-size: 1.6rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  h2 {
+    font-size: 1.3rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.1rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.2rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  img {
+    max-width: 90%;
+
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+
+  p {
+    line-height: 2.5rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 0.9rem;
+    }
+  }
+
+  span {
+    font-size: 2rem !important;
+  }
+
+  img {
+    margin: 20px auto;
+  }
+
+  a {
+    color: orange;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  ul {
+    list-style: none; /* デフォルトのアイコンを消す */
+    margin: 20px; /* デフォルト指定上書き */
+    padding: 0; /* デフォルト指定上書き */
+
+    @media screen and (max-width: 768px) {
+      margin: 0;
+    }
+
+    li {
+      padding: 10px; /* 余白指定 */
+      margin: 0 20px 10px;
+
+      @media screen and (max-width: 768px) {
+        margin: 0 0 20px;
+        font-size: 0.9rem;
+      }
+
+      &::before {
+        content: ""; /* 空の要素作成 */
+        width: 40px; /* 幅指定 */
+        height: 40px; /* 高さ指定 */
+        display: inline-block; /* インラインブロックにする */
+        position: relative; /* アイコンの位置を調整 */
+        top: -8px; /* アイコンの位置を調整 */
+        margin-right: 5px; /* 余白指定 */
+        background-image: url("/fukidasi.png"); /* アイコン指定 */
+        background-size: contain; /* アイコンの大きさ指定 */
+        background-repeat: no-repeat; /* アイコンをリピートしないようにする */
+        vertical-align: top;
+      }
+    }
+  }
+}
