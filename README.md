@@ -47,27 +47,27 @@ fork 後、[こちら](#TODO)の手順に従うことで簡単に自分だけの
 
 3. サイト情報を入力
 
-- [header.tsx](./src/app/../../../src/app/header.tsx)の`site_name`を自身のサイト名に変更
+- [header.tsx](./src/app/header.tsx)の`site_name`を自身のサイト名に変更
 
   - サイト上部のヘッダーに表示されるテキストになります。
 
-- [ogp.ts](./src/app/../../../src/app/ogp.ts)の`image_url`を変更
+- [ogp.ts](./src/app/ogp.ts)の`image_url`を変更
 
   - [こちらの記事](https://pentaprogram.tokyo/blog/Pmh6xlMcj48)が大変参考になります。
 
-- [head.tsx](./src/app/../../../src/app/head.tsx)の`description`と`title`を変更
+- [head.tsx](./src/app/head.tsx)の`description`と`title`を変更
 
   - トップページの meta タグに設定されます。
 
-- [footer.tsx](./src/app/../../../src/app/footer.tsx)の`copyright`を変更
+- [footer.tsx](./src/app/footer.tsx)の`copyright`を変更
 
   - サイト下部のフッターに表示されるコピーライト名になります。
 
-- [DefaultTags.tsx](./src/app/../../../src/app/DefaultTags.tsx)の`keywords`を変更
+- [DefaultTags.tsx](./src/app/DefaultTags.tsx)の`keywords`を変更
 
   - 昨今の検索エンジンには必要ないとされていますのでご自身の都合に合わせてご変更をお願いします。
 
-- [contact/page.tsx](./src/app/../../../src/app/contact/page.tsx)の`twitter_url`と`github_url`を変更
+- [contact/page.tsx](./src/app/contact/page.tsx)の`twitter_url`と`github_url`を変更
   - お問合せページ内のリンクに適応されます。
 
 ### 記事を書く & 確認
