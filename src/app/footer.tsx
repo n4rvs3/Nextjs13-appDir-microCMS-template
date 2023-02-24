@@ -1,6 +1,6 @@
-export const Footer = () => {
+import { copyright } from "@/components/siteSetting"
 
-        const copyright = ""
+export const Footer = () => {
 
         return (
                 <footer>

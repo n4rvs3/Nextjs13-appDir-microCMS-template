@@ -1,9 +1,8 @@
 import base64url from "base64url";
 
-const generateOgImage = (title: string) => {
-  // ogpの元となる画像のURL
-  const image_url = "";
+import { image_url } from "@/components/siteSetting";
 
+const generateOgImage = (title: string) => {
   // タイトルを Base64 エンコーディング
   const base64title = base64url(title);
 

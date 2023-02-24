@@ -1,10 +1,8 @@
 import { Default } from "./DefaultTags"
 
+import { description, title } from "@/components/siteSetting"
+
 export default function Head() {
-
-  const description = ""
-
-  const title = ""
 
   return (
     <>

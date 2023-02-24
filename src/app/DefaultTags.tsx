@@ -2,6 +2,8 @@
 
 import { usePathname } from 'next/navigation';
 
+import { keywords } from '@/components/siteSetting';
+
 type Props = {
         description: string
         title: string
@@ -12,9 +14,6 @@ export const Default = ({ description, title, imgurl }: Props) => {
 
         const currentUrl = usePathname() as string
         const url = currentUrl
-
-        // 検索エンジン向けのキーワード
-        const keywords = ""
 
         return (
                 <>

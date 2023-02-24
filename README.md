@@ -4,6 +4,8 @@ Next.js v13 × microCMS で作成できるブログテンプレートです。
 
 fork 後、[こちら](#TODO)の手順に従うことで簡単に自分だけのブログを運用することが出来ます。
 
+[実際に運用しているブログ](https://scrap.n4rvs3.com/)
+
 最低限の機能のみ実装しています。今後も継続的に更新予定ですが何か問題・不明点がありましたらお気軽に[twitter](https://twitter.com/Squl_d)もしくは[issue](https://github.com/n4rvs3/Nextjs13-appDir-microCMS-template/issues)までお願いします。
 
 ## fork したら
@@ -47,28 +49,7 @@ fork 後、[こちら](#TODO)の手順に従うことで簡単に自分だけの
 
 ### サイト情報を入力
 
-- [header.tsx](./src/app/header.tsx)の`site_name`を自身のサイト名に変更
-
-  - サイト上部のヘッダーに表示されるテキストになります。
-
-- [ogp.ts](./src/app/ogp.ts)の`image_url`を変更
-
-  - [こちらの記事](https://pentaprogram.tokyo/blog/Pmh6xlMcj48)が大変参考になります。
-
-- [head.tsx](./src/app/head.tsx)の`description`と`title`を変更
-
-  - トップページの meta タグに設定されます。
-
-- [footer.tsx](./src/app/footer.tsx)の`copyright`を変更
-
-  - サイト下部のフッターに表示されるコピーライト名になります。
-
-- [DefaultTags.tsx](./src/app/DefaultTags.tsx)の`keywords`を変更
-
-  - 昨今の検索エンジンには必要ないとされていますのでご自身の都合に合わせてご変更をお願いします。
-
-- [contact/page.tsx](./src/app/contact/page.tsx)の`twitter_url`と`github_url`を変更
-  - お問合せページ内のリンクに適応されます。
+- [こちらのファイル](./src/components/siteSetting.ts)を確認、適時変更してください。
 
 ### 記事を書く & 確認
 

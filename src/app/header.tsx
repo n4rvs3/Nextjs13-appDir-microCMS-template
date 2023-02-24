@@ -1,8 +1,8 @@
 import Link from "next/link"
 
-export const Header = () => {
+import { site_name } from "@/components/siteSetting"
 
-        const site_name = ""
+export const Header = () => {
 
         return (
                 <header className="sticky top-0 w-full text-white bg-slate-800 bg-opacity-40 backdrop-blur-md">
